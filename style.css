@@ -5,13 +5,13 @@
     body{
       font-family: 'Josefin Sans', sans-serif;
     font-size: 18px;
-    background-image: url(./images/bg-pattern-desktop.svg);
+    
     }
     .container{
       display: flex;
       flex-wrap: wrap;
       font-family: Josefin Sans;
-      height: 650px;
+      background-image: url(./images/bg-pattern-desktop.svg);
 
     }
     .column{
@@ -80,8 +80,6 @@
       float: right;
     }
     .column2 img{
-      max-height: 650px;
-      max-width: 720px;
     }
        .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
