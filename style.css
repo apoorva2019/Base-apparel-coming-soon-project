@@ -1,0 +1,87 @@
+<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    *{
+      box-sizing: border-box;
+    }
+    body{
+      font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    background-image: url(./images/bg-pattern-desktop.svg);
+    }
+    .container{
+      display: flex;
+      flex-wrap: wrap;
+      font-family: Josefin Sans;
+      height: 650px;
+
+    }
+    .column{
+      flex: 50%;
+      max-width: 50%;
+
+    }
+    .column1{
+      height: 100%;
+      padding:10% 20%;
+      padding-left: 20%;
+      padding-right: 20%;
+      float: left;
+    }
+    .logo{
+      height: 20%;
+    }
+    .h1{
+      letter-spacing: 20px;
+      color:hsl(0, 36%, 70%);
+      font-size: 4rem;
+      margin: -10px;
+    }
+    .h2{
+      letter-spacing: 20px;
+      margin: -10px;
+      font-size: 4rem;
+      color: hsl(0, 6%, 24%);
+    }
+    .h3{
+      color: hsl(0, 36%, 70%);
+    }
+    .matter input{
+      width: 90%;
+      padding: 12px ;
+      font-size: 12px;
+      border:2px solid hsl(0, 93%, 68%);
+      border-radius: 25px;
+    }
+    .matter .form button{
+      border-color: hsl(0, 80%, 86%);
+      vertical-align: middle;
+      padding: 20px 35px;
+      font-size: 10px;
+      margin-left: 5px;
+      border-radius: 30px;
+      box-shadow: 0px 11px 8px 0 rgba(144, 63, 63, 0.2), 0px 8px 20px 0 rgba(0, 0, 0, 0.19);
+      background-image: url(./images/icon-arrow.svg),linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+      background-repeat: no-repeat;
+      background-position: center;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .matter img{
+      margin-left: -120px;
+      padding-right: 5px;
+      margin-right: 3px;
+      vertical-align: middle;
+    }
+    .err-msg{
+      padding-left: 30px;
+      font-size: 10px;
+      color: hsl(0, 62%, 71%);
+    }
+    .column2{
+      float: right;
+    }
+    .column2 img{
+      max-height: 650px;
+      max-width: 720px;
+    }
+       .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
